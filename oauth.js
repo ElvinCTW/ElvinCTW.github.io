@@ -2,7 +2,7 @@ const authorizeButton = document.getElementById('oauth-btn');
 const scopes = "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile openid"
 const responseType = "token"
 const clientId = "230518717986-rs97e5pu20dcmm4f0m0d5kq33g4s9hln.apps.googleusercontent.com"
-const reDirectURI = "https://dev.api.roehl.com.cn"
+const reDirectURI = "https://dev.api.roehl.com.cn/app/login/google"
 
 const btn = document.getElementById("btn")
 btn.onclick = function() {
