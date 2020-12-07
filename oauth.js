@@ -5,7 +5,7 @@ const clientId = "230518717986-rs97e5pu20dcmm4f0m0d5kq33g4s9hln.apps.googleuserc
 const reDirectURI = "https://dev.api.roehl.com.cn"
 
 const btn = document.getElementById("btn")
-btn.onclick((event)=>{
+btn.onclick = function() {
   // Google's OAuth 2.0 endpoint for requesting an access token
   var oauth2Endpoint = 'https://accounts.google.com/o/oauth2/v2/auth';
 
@@ -34,5 +34,5 @@ btn.onclick((event)=>{
   // Add form to page and submit it to open the OAuth 2.0 endpoint.
   document.body.appendChild(form);
   form.submit();
-})
+}
 
