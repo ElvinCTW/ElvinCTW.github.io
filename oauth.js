@@ -17,7 +17,7 @@ btn.onclick = function() {
   // Parameters to pass to OAuth 2.0 endpoint.
   var params = {'client_id': clientId,
                 'redirect_uri': reDirectURI,
-                'response_type': 'token',
+                'response_type': 'code',
                 'scope': scopes,
                 'include_granted_scopes': 'true',
                 'state': 'pass-through value'};
